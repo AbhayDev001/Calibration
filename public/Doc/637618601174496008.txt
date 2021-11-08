@@ -1,0 +1,11 @@
+Result: +  9.99998 g  
+
+Device: RDAD-1239-ABL
+Device Type: Balance
+Serial number: 37801091
+Location: GCMS LAB
+Date: Wednesday, July 14, 2021
+Time: 11:48:37 AM
+Weight = +  9.99998  g  
+
+User ID: =  16466

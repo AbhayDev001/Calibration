@@ -1,0 +1,11 @@
+Result: 0.0000 mg 
+
+Device: RDAD-1246-ABL
+Device Type: Balance
+Serial number: 38001162
+Location: LCMS LAB
+Date: Thursday, July 8, 2021
+Time: 6:01:06 PM
+Weight = 0.0000  mg 
+
+User ID: =  18035

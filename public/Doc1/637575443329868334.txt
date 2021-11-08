@@ -1,0 +1,11 @@
+Result: +200.00010 g  
+
+Device: RDAD-1251-ABL
+Device Type: Balance
+Serial number: 38101083
+Location: ARC
+Date: Tuesday, May 25, 2021
+Time: 12:58:52 PM
+Weight = +200.00010  g  
+
+User ID :-  =  20158

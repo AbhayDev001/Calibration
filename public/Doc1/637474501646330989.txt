@@ -1,0 +1,11 @@
+Result: +   5.161  mg 
+
+Device: RDAD-1250-ABL
+Device Type: Balance
+Serial number: TEST
+Location: ARC
+Date: Thursday, January 28, 2021
+Time: 5:02:44 PM
+Weight = +   5.161   mg 
+
+User ID: =  12685

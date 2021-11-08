@@ -1,0 +1,52 @@
+<?php
+namespace App\Models;
+Use DB;
+
+use Illuminate\Database\Eloquent\Model;
+
+class GetDeviceWeight extends Model
+{
+	public $timestamps = false;
+	protected $fillable=['DeviceId','InstrumentId','CalibrationTypeId','LineId','Type','StWeight','CertWeight','AccpWeight','CreatedBy'];
+	protected $table = 'deviceweight';
+
+
+	public function SaveDeviceWeight($data)
+	{
+		$this->insert($data);
+		return 1;
+	}
+	public function DeleteDeviceWeight($data)
+	{
+		$this->where('DeviceId', $data['DeviceId'])->where('InstrumentId', $data['InstrumentId'])->where('CalibrationTypeId', $data['CalibrationTypeId'])->delete();
+		return 1;
+	}
+
+	/*public function SaveDeviceWeight($data)
+	{
+		$this->Name = $data['Name'];
+		$this->InstrumentId = $data['InstrumentId'];
+		$this->Make = $data['Make'];
+		$this->Model = $data['Model'];
+		$this->SearialNo = $data['SearialNo'];
+		$this->DirPath = $data['DirPath'];
+		$this->IsActive = $data['IsActive'];
+		$this->CreatedBy = $data['CreatedBy'];
+		$this->CreatedDate = $data['CreatedDate'];
+		$this->save();
+		return 1;
+		//return $this->id;
+	}
+
+	public function UpdDevice($data)
+	{
+		$this->where('RecId', $data['RecId'])->update(array('Name' => $data['Name'],'InstrumentId' => $data['InstrumentId'],'Make' => $data['Make'],'Model' => $data['Model'],'SearialNo' => $data['SearialNo'],'DirPath' => $data['DirPath']));
+		return 1;
+	}
+
+	public function ActiveDeactiveDevice($data)
+	{
+		$this->where('RecId', $data['RecId'])->update(array('IsActive' => $data['IsActive']));
+		return 1;
+	}*/
+}

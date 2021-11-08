@@ -1,0 +1,11 @@
+Result: 0.04999 g
+
+Device: RDAD-1077
+Device Type: Balance
+Serial number: 1126473937
+Location: Validation Lab
+Date: Tuesday, December 29, 2020
+Time: 1:36:57 PM
+Weight = 0.04999  g
+
+User ID: =  15476
